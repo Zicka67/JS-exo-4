@@ -35,9 +35,9 @@
         
         function addBox () {
             newbox.addEventListener("keypress", (event) => {
-                var newbox = document.document.createElement("div");
+                var newbox = document.createElement("div");
                 container.appendChild(newbox);
-                box.classList.add("box");
+                newbox.classList.add("box");
             })
         }
 
