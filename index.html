@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>JS exo 4</title>
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        
+    </div>
+    
+    
+    
+    <script>
+        
+        // keydown
+        // keyup
+        // keypress
+        
+        const newbox = box.cloneNode()
+        const box = document.createElement("div")
+        box.classList.add("box")
+        
+        if(/*touche enfoncée => créer une box
+        sinon => rien*/) { //do while (créer une box, tant que la touche est enfoncée)
+          
+        }
+        
+        function addBox () {
+            newbox.addEventListener("keypress", (event) => {
+                var newbox = document.document.createElement("div");
+                container.appendChild(newbox);
+                box.classList.add("box");
+            })
+        }
+
+        // RNG colors
+        // var colors = ['#ff0000', '#00ff00', '#0000ff'];
+        // var random_color = colors[Math.floor(Math.random() * colors.length)];
+        // document.getElementByClassName("box").style.color = random_color;
+    </script>
+    
+    
+</body>
+
+</html>
