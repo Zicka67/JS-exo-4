@@ -1,12 +1,14 @@
-.container {
+#container {
     display: grid;
     grid-template-columns: repeat(15, 1fr); 
     grid-template-rows: repeat(15, 1fr);
     width: 900px;
     height: 900px;
+    background-color: aqua;
 }
 
 .box {
     width: 60px;
     height: 60px;
+    background-color: brown;
 }
